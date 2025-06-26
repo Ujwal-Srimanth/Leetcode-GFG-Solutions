@@ -16,7 +16,7 @@ class Solution {
                maxLen = max(maxLen,len);
            }
            if(preSumMap.find(sum)==preSumMap.end()){
-           preSumMap[sum] = i; 
+            preSumMap[sum] = i; 
            }
        }
        return maxLen;
